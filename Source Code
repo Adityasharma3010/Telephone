@@ -22,7 +22,7 @@ void telephone::get(void)
     cin.getline(name, 20);  
     cout << "Enter Address: ";  
     cin.ignore();  
-    cin.getline(address, 20);  
+    cin.getline(address, 50);  
     cout << "Enter Phone Number: ";  
     cin >> ph_no;  
 }  
